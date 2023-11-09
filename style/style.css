@@ -29,6 +29,7 @@ nav {
     background-color: #7766F1;
     padding: 5px;
     position:sticky;
+    opacity:5;
     top: 0;
 }
 
@@ -56,9 +57,17 @@ nav li.Home{
     list-style-type: none;
 }
 
-h2,
+h2{
+    color: #090909;
+    text-decoration: solid;
+}
 h3 {
     color: #090909;
+    text-align: center;
+}
+p{
+    color: #090909;
+    
 }
 
 #content {
@@ -97,7 +106,7 @@ aside {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-top: 5px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     padding: 20px;
     text-align: center;
 }
@@ -106,7 +115,6 @@ aside {
     max-height: 400px;
     object-fit: cover;
     object-position: center;
-    opacity: 0.1;
     transition: ease-out 500ms;
 }
 
@@ -115,43 +123,42 @@ aside {
     max-height: 600px;
     object-fit: cover;
     object-position: center;
-    opacity: 1;
     transition: 1s ease-in-out 100ms;
 }
 
 .featured-image2 {
-    width: 100%;
+    width: 70%;
     max-height: 400px;
+    margin-left: 250px;
     object-fit: cover;
     object-position: center;
-    opacity: 0.2;
     transition: ease-out 500ms;
 }
 
 .featured-image2:hover {
-    width: 100%;
-    max-height: 600px;
+    width: 50%;
+    max-height: 400px;
+    margin-left: 450px;
     object-fit: cover;
     object-position: center;
-    opacity: 1;
     transition: 1s ease-in-out 100ms;
 }
 
 .featured-image3 {
-    width: 100%;
+    width: 70%;
     max-height: 400px;
+    margin-left: 250px;
     object-fit: cover;
     object-position: center;
-    opacity: 0.2;
     transition: ease-out 500ms;
 }
 
 .featured-image3:hover {
-    width: 100%;
-    max-height: 600px;
+    width: 50%;
+    max-height: 400px;
+    margin-left: 450px;
     object-fit: cover;
     object-position: center;
-    opacity: 1;
     transition: 1s ease-in-out 100ms;
 }
 .card {
@@ -175,6 +182,17 @@ aside {
 section {
     text-align: left;
     width: 100%;
+}
+
+#contact.ContactMe{
+    float: right;
+    width: 15%;
+    padding: 20px;
+    margin-left: 115px;
+    position: absolute;
+    text-align: center;
+    display:contents;
+    
 }
 
 footer {
