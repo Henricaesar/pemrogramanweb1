@@ -18,6 +18,9 @@
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
+![image](assets/Screenshot%20(32).png)
+![image](assets/Screenshot%20(33).png)
+
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
 
